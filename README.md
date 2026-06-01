@@ -1,5 +1,9 @@
 # Global Solution - Space Route
 
+## Link do projeto no Wowki
+
+https://wokwi.com/projects/465383585185280001
+
 ## Integrantes
 
 | Nome                             | RM       |
@@ -13,7 +17,7 @@
 
 ---
 
-# Descrição do projeto
+## Descrição do projeto
 
 O Global SpaceRoute é uma plataforma inteligente de monitoramento e gerenciamento do espaço aéreo e orbital baseada na integração de dados em tempo real provenientes de satélites, radares, sistemas aeronáuticos e operações espaciais.
 
@@ -33,7 +37,7 @@ O protótipo simula o comportamento do Space Route em um cenário reduzido, demo
 
 ---
 
-# Resumo de Funcionamento
+## Resumo de Funcionamento
 
 O sistema permanece monitorando continuamente o ambiente através do sensor ultrassônico.
 
@@ -47,7 +51,7 @@ Cada estado é representado por LEDs, mensagens no display LCD, mensagens no con
 
 ---
 
-# Modo Aéreo
+## Modo Aéreo
 
 O modo aéreo simula o monitoramento enquanto o foguete está passando pelo espaço aéreo.
 
@@ -61,7 +65,7 @@ Quando um possível conflito é identificado, o sistema calcula uma nova rota pr
 
 ---
 
-# Modo Orbital
+## Modo Orbital
 
 O modo orbital simula o monitoramento enquanto o foguete está passando pelo espaço orbital.
 
@@ -75,7 +79,7 @@ Da mesma forma, ao identificar um possível conflito, o sistema realiza o recál
 
 ---
 
-# Estado Seguro
+## Estado Seguro
 
 Quando a distância detectada entre o foguete e o objeto é superior a 150 cm:
 
@@ -90,7 +94,7 @@ Quando a distância detectada entre o foguete e o objeto é superior a 150 cm:
 
 ---
 
-# Alerta Preventivo
+## Alerta Preventivo
 
 Quando a distância detectada entre o foguete e o objeto está entre 80 cm e 150 cm:
 
@@ -147,7 +151,7 @@ Após o movimento, o servo permanece na nova posição, representando que a aero
 
 ---
 
-# Estado de Emergência
+## Estado de Emergência
 
 A emergência ocorre em duas situações:
 
@@ -183,7 +187,7 @@ O desvio emergencial nunca mantém a mesma rota anterior, simulando uma tentativ
 
 ---
 
-# Componentes Utilizados
+## Componentes Utilizados
 
 * Arduino Uno
 * Sensor Ultrassônico HC-SR04
@@ -197,7 +201,7 @@ O desvio emergencial nunca mantém a mesma rota anterior, simulando uma tentativ
 
 ---
 
-# Tabela de Representação
+## Tabela de Representação
 
 | Componente                  | Representação                                                                                      |
 | --------------------------- | -------------------------------------------------------------------------------------------------- |
