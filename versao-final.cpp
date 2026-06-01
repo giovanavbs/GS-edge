@@ -26,8 +26,8 @@ bool msgEmergencia = false;
 unsigned long ultimo = 0;
 unsigned long tempoInicio = 0;
 
-const unsigned long pausa = 3000;
-const unsigned long tempoMax = 7000;
+const unsigned long pausa = 2000;
+const unsigned long tempoMax = 4000;
 
 String objeto = "";
 String direcaoNova = "";
@@ -40,7 +40,7 @@ long distanciaAtual = 200;
 bool pausaAtiva = false;
 unsigned long inicioPausa = 0;
 
-const unsigned long tempoPausa = 5000; 
+const unsigned long tempoPausa = 2000; 
 
 void setup() {
 
